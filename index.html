@@ -3,10 +3,390 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./img/postjob-logo.svg" />
+    <link rel="stylesheet" href="./css/style.css" />
     <script defer src="js/script.js"></script>
     <title>PostJob | Job Finder</title>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <!-- Navbar -->
+    <nav class="nav">
+      <div class="nav__group">
+        <a class="nav__brand" href="index.html">
+          <img
+            src="./img/postjob-logo-white.svg"
+            class="nav__brand-logo"
+            width="24"
+            height="24"
+            alt="Postjob Logo"
+          />
+          <span class="nav__brand-name">PostJob</span>
+        </a>
+        <ul class="nav__menu">
+          <li class="nav__menu-item">
+            <a href="#" class="nav__item-link">AI Cover Letter Generator</a>
+          </li>
+          <li class="nav__menu-item">
+            <a href="#" class="nav__item-link">Resume Template</a>
+          </li>
+          <li class="nav__menu-item">
+            <a href="#" class="nav__item-link">Pricing</a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav__buttons">
+        <a href="#" class="nav__button button--outline">Sign In</a>
+        <a href="#" class="nav__button button">Get Started</a>
+      </div>
+    </nav>
+    <!-- end of Navbar -->
+
+    <!-- Hero Section -->
+    <div class="hero">
+      <div class="hero__heading">
+        <span class="hero__heading-text hero__heading-text--green">
+          Win your dream job
+          <span class="hero__heading-text--white">with PostJob</span>
+        </span>
+      </div>
+      <p class="hero__description">
+        Submit better job app — 10x faster. AI cover letter generator, resume
+        keyword checker, outreach message writer, and more. Powered by GPT
+      </p>
+      <form class="hero__form">
+        <input type="email" class="hero__form-input" placeholder="Your Email" />
+        <a href="#" class="hero__form-button button"> Start for Free </a>
+      </form>
+      <div class="hero__features">
+        <div class="hero__feature-card">
+          <img
+            class="hero__feature-icon"
+            src="./img/file.svg"
+            alt=""
+            width="24"
+            height="24"
+          />
+          <h5 class="hero__feature-name">AI Cover Letter Generator</h5>
+          <p class="hero__feature-description">
+            The AI Cover Letter Generator is a tool that uses artificial
+            intelligence algorithms to create personalized cover letters for job
+            applicants.
+          </p>
+        </div>
+        <div class="hero__feature-card">
+          <img
+            class="hero__feature-icon"
+            src="./img/radio.svg"
+            alt=""
+            width="24"
+            height="24"
+          />
+          <h5 class="hero__feature-name">Smart Personalization</h5>
+          <p class="hero__feature-description">
+            Smart Personalization refers to the use of data and technology to
+            deliver tailored experiences and content to individual customers or
+            users.
+          </p>
+        </div>
+        <div class="hero__feature-card">
+          <img
+            class="hero__feature-icon"
+            src="./img/maximize.svg"
+            alt=""
+            width="24"
+            height="24"
+          />
+          <h5 class="hero__feature-name">Resume Scanner</h5>
+          <p class="hero__feature-description">
+            A resume scanner is a software application that uses optical
+            character recognition (OCR) technology to extract and analyze data
+            from resumes.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- end of Hero Section -->
+
+    <!-- About Section -->
+    <div class="about">
+      <div class="about__heading">
+        <span class="about__heading-text">Submit better job applications</span>
+        <strong class="about__heading-text--highlighted">10x faster</strong>
+      </div>
+      <p class="about__description">
+        AI cover letter generator, resume keyword checker, outreach message
+        writer, and more. Powered by GPT
+      </p>
+      <div class="about__image-wrapper">
+        <img src="./img/about-img.jpg" alt="" class="about__image" />
+      </div>
+    </div>
+
+    <div class="about-2">
+      <div class="about-2__heading">
+        <span class="about-2__heading-text"
+          >Spend less time looking for work</span
+        >
+        <p class="about-2__description">
+          We'll help you through the hardest part of your job search.
+        </p>
+      </div>
+      <a href="#" class="about-2__button button--outline">Create an Account</a>
+      <div class="about-2__features">
+        <div class="about-2__feature-card">
+          <img
+            class="about-2__feature-icon"
+            src="./img/file.svg"
+            alt=""
+            width="24"
+            height="24"
+          />
+          <h5 class="about-2__feature-name">Cover Letter</h5>
+          <p class="about-2__feature-description">
+            A cover letter is a document that accompanies a job application and
+            is written to introduce the applicant to the employer.
+          </p>
+        </div>
+        <div class="about-2__feature-card">
+          <img
+            class="about-2__feature-icon"
+            src="./img/mail.svg"
+            alt=""
+            width="24"
+            height="24"
+          />
+          <h5 class="about-2__feature-name">Resignation Letters</h5>
+          <p class="about-2__feature-description">
+            A resignation letter is a formal document that an employee writes to
+            inform their employer of their decision to leave the company.
+          </p>
+        </div>
+        <div class="about-2__feature-card">
+          <img
+            class="about-2__feature-icon"
+            src="./img/git-pull-request.svg"
+            alt=""
+            width="24"
+            height="24"
+          />
+          <h5 class="about-2__feature-name">Connection Request</h5>
+          <p class="about-2__feature-description">
+            A connection request is a message sent on a social networking site,
+            such as LinkedIn, requesting to connect with another user.
+          </p>
+        </div>
+        <div class="about-2__feature-card">
+          <img
+            class="about-2__feature-icon"
+            src="./img/send.svg"
+            alt=""
+            width="24"
+            height="24"
+          />
+          <h5 class="about-2__feature-name">Outreach Emails</h5>
+          <p class="about-2__feature-description">
+            Outreach emails are messages sent by individuals or businesses to
+            introduce themselves, establish a connection, or propose a
+            collaboration.
+          </p>
+        </div>
+        <div class="about-2__feature-card">
+          <img
+            class="about-2__feature-icon"
+            src="./img/grid.svg"
+            alt=""
+            width="24"
+            height="24"
+          />
+          <h5 class="about-2__feature-name">Resume Optimization</h5>
+          <p class="about-2__feature-description">
+            Smart Personalization refers to the use of data and technology to
+            deliver tailored experiences and content to individual customers or
+            users.
+          </p>
+        </div>
+        <div class="about-2__feature-card">
+          <img
+            class="about-2__feature-icon"
+            src="./img/codesandbox.svg"
+            alt=""
+            width="24"
+            height="24"
+          />
+          <h5 class="about-2__feature-name">Resume Design</h5>
+          <p class="about-2__feature-description">
+            A resume scanner is a software application that uses optical
+            character recognition (OCR) technology to extract and analyze data
+            from resumes.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- end of About Section -->
+
+    <!-- AI & Optimize Section -->
+    <section class="ai-optimize">
+      <div class="section__ai">
+        <div class="section-ai__image">
+          <img src="./img/ai-illustration.svg" alt="" width="400" />
+        </div>
+        <div class="section-ai__texts">
+          <h3 class="section-ai__heading">
+            Free AI cover letter generator powered by GPT
+          </h3>
+          <p class="section-ai__description">
+            A free AI cover letter generator powered by GPT is a tool that uses
+            artificial intelligence and natural language processing to help job
+            seekers create customized and effective cover letters.
+          </p>
+          <a href="#" class="section-ai__button button--outline-2"
+            >Try for Free Now</a
+          >
+        </div>
+      </div>
+      <div class="section__optimize">
+        <div class="section-optimize__image">
+          <img src="./img/optimize-illustration.svg" alt="" width="400" />
+        </div>
+        <div class="section-optimize__texts">
+          <h3 class="section-optimize__heading">
+            Optimize the keywords in your resume
+          </h3>
+          <p class="section-optimize__description">
+            By optimizing keywords in your resume, you can increase your chances
+            of getting noticed by recruiters and landing interviews for the jobs
+            you want.
+          </p>
+          <a href="#" class="section-optimize__button button--outline-2"
+            >Optimize your Resume</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- end of AI & Optimize Section -->
+
+    <!-- Resume Design Section -->
+    <section class="resume">
+      <div class="section-resume__image">
+        <img src="./img/resume-illustration.svg" alt="" width="400" />
+      </div>
+      <div class="section-resume__texts">
+        <h3 class="section-resume__heading">Free resume design templates</h3>
+        <p class="section-resume__description">
+          By following these design tips, you can create a professional and
+          effective resume that will help you stand out to recruiters and hiring
+          managers.
+        </p>
+        <a href="#" class="button--outline">Create an Account</a>
+      </div>
+    </section>
+    <!-- end of Resume Design Section -->
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer__header-wrap">
+        <span class="footer__header">What's Next?</span>
+        <p class="footer__description">
+          Submit better job app — 10x faster. AI cover letter generator, resume
+          keyword checker, outreach message writer, and more. Powered by GPT
+        </p>
+        <a href="#" class="footer__button button--outline-2">Try for Free</a>
+      </div>
+      <div class="footer__menus">
+        <div class="footer__menu">
+          <h6 class="footer__heading">Platform</h6>
+          <ul class="footer__menu-item">
+            <li><a href="#" class="footer__item-link">Plans and Places</a></li>
+            <li><a href="#" class="footer__item-link">AI Create Letters</a></li>
+            <li><a href="#" class="footer__item-link">AI Resume Checker</a></li>
+            <li><a href="#" class="footer__item-link">Resume Templates</a></li>
+            <li><a href="#" class="footer__item-link">Sell Templates</a></li>
+            <li><a href="#" class="footer__item-link">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer__menu">
+          <h6 class="footer__heading">Features</h6>
+          <ul class="footer__menu-item">
+            <li>
+              <a href="#" class="footer__item-link">AI Cover Letter Creator</a>
+            </li>
+            <li>
+              <a href="#" class="footer__item-link"
+                >Resume Keywords Optimizer</a
+              >
+            </li>
+            <li>
+              <a href="#" class="footer__item-link">ATS Resume Checker</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__menu">
+          <h6 class="footer__heading">Resources</h6>
+          <ul class="footer__menu-item">
+            <li>
+              <a href="#" class="footer__item-link"
+                >4 AI Tools for Applying a Job</a
+              >
+            </li>
+            <li>
+              <a href="#" class="footer__item-link"
+                >How to optimize Resume keywords</a
+              >
+            </li>
+            <li>
+              <a href="#" class="footer__item-link"
+                >Why you should use Chat GPT for create Resume</a
+              >
+            </li>
+            <li>
+              <a href="#" class="footer__item-link"
+                >What should you include in a Cover Letter</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer__menu">
+          <h6 class="footer__heading">Support</h6>
+          <a
+            href="mailto:support@gmail.com"
+            target="_blank"
+            class="footer__item-link"
+            >support@gmail.com</a
+          >
+          <div class="footer__social-media">
+            <img
+              src="./img/instagram.svg"
+              alt=""
+              class="footer__instagram"
+              width="24"
+            />
+            <img
+              src="./img/facebook.svg"
+              alt=""
+              class="footer__facebook"
+              width="24"
+            />
+            <img
+              src="./img/linkedin.svg"
+              alt=""
+              class="footer__linkedin"
+              width="24"
+            />
+            <img
+              src="./img/telegram.svg"
+              alt=""
+              class="footer__telegram"
+              width="24"
+            />
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="footer__copyright">
+        &copy;2024 | All rights reserved | <a href="#">Terms of Use</a> |
+        <a href="#">Privacy</a>
+      </div>
+    </footer>
+    <!-- end of Footer -->
   </body>
 </html>
